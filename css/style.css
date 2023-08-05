@@ -20,11 +20,35 @@
     height: 70px;
   }
   #gato img {
-    width: 70px;
-    height: 70px;
+   
+    width: 45px;
+    height: 45px;
+    
   }
  
   
   #masmelo img {
     width: 40px;
   }
+  .container {
+    display: flex;
+  }
+  
+  .left, .right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left {
+    background-color: #f2f2f2;
+  }
+  
+  .right {
+    background-color: #eaeaea;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
