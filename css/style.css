@@ -1,0 +1,30 @@
+  
+  nav {
+    background-color: #28d6e2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+  }
+  
+  .navbar-brand {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  #header img {
+    width: 80px;
+  }
+  
+  #usuario img {
+    width: 70px;
+    height: 70px;
+  }
+  #gato img {
+    width: 70px;
+    height: 70px;
+  }
+ 
+  
+  #masmelo img {
+    width: 40px;
+  }

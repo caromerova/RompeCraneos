@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<body>
+    <!--inicio header-->
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <nav id="masmelo" class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="#"> <img src="/imagenes/masmelo.jpeg" alt="">
+            </a>
+        </nav>
+        <a class="navbar-brand" href="#"> <img src="./imagenes/pajarodestinos.png" alt="">
+            Rompe Craneos
+        </a>
+
+        <div class="col">
+            Intentos:
+            <span class="intentos">0</span>
+        </div>
+
+        <div class="row justify-content-around align-items-center">
+
+
+            Tiempo de Juego:
+            <span class="tiempo">0</span>
+        </div>
+
+        <nav id="usuario" class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="#"> <img src="/imagenes/usuario.png" alt="">
+            </a>
+        </nav>
+    </nav>
+    <!--fin del header-->
+
+
+
+    <h1>Rompe cabezas, Rompe craneo</h1>
+    <button id="miBoton">ver rompecraneos</button>
+
+    <!--Tablerp del Juego-->
+    <div class="container">
+        <h1 class="text-center mt-4 mb-0">Tu Rompecraneos</h1>
+        <hr class="mt-2 mb-5" />
+        <div class="row">
+            <div class="col-7">
+                <div class="tablero row text-center text-lg-start"></div>
+            </div>
+        
+            <div class="col-5">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <p> Rompecraneos: Al darle click al boton ('ver rompecraneos') la idea es que se muestre la
+                                imagen completa del rompecabezas a armar.
+                                Al comenzar el juego, osea al darle click en el boton desordenar fichas las piezas se
+                                mezclan y se distribuyen aleatoriamente en el tablero. Esto crea un rompecabezas
+                                desordenado.
+
+                                Movimiento de Piezas: El jugador puede interactuar con las piezas utilizando el ratón o
+                                los controles táctiles (en dispositivos móviles). Pueden seleccionar una pieza cercana a
+                                un espacio vacío y arrastrarla para intercambiarla con la pieza adyacente al espacio
+                                vacío.
+
+                                Objetivo: El objetivo del juego es reorganizar todas las piezas hasta que formen la
+                                imagen original. Cuando todas las piezas estén en su lugar correcto, el rompecabezas
+                                estará resuelto.
+
+                                Dificultad: Para aumentar la dificultad del juego ajustando el tamaño del tablero y la
+                                cantidad de piezas. Cuanto más pequeñas sean las piezas o más grande sea el tablero, más
+                                difícil será resolver el rompecabezas. tambien la idea es colocar un limite de tiempo
+                                para generar emocion en el juego mientras aumenta de niveles.
+
+                                Es un juego clásico pero entretenido y puede ser una excelente opción para ejercitar el
+                                cerebro y disfrutar de una experiencia de juego relajante.</p>
+                            </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mt-2 mb-5" />
+    <div class="row">
+        <div class="col-7">
+            <div class="tablero row text-center text-lg-start"></div>
+        </div>
+    
+        <div class="col-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <nav id="gato" class="navbar navbar-expand-lg navbar-dark ">
+                            <a class="navbar-brand" href="#"> <img src="/imagenes/gato.jpg" alt="">
+                            </a>
+                        </nav>
+                        </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<br>
+
+    <div class="col">
+        <button type="button" class="iniciar btn btn-success">desordenar fichas</button>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
